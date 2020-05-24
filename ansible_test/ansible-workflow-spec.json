@@ -1,0 +1,210 @@
+{
+    "description": "",
+    "file": null,
+    "name": "",
+    "task_specs": {
+        "End": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 6,
+            "inputs": [
+                "multi_choice_1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "End",
+            "outputs": [],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "End2": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 7,
+            "inputs": [
+                "multi_choice_1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "End2",
+            "outputs": [],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "Ping": {
+            "args": "yes",
+            "class": "Ansibleexecute.AnsibleRun",
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 3,
+            "inputs": [
+                "ansible_exec"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "Ping",
+            "outputs": [
+                "synch_1"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "Shell": {
+            "args": "no",
+            "class": "Ansibleexecute.AnsibleRun",
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 4,
+            "inputs": [
+                "ansible_exec"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "Shell",
+            "outputs": [
+                "synch_1"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "Start": {
+            "class": "SpiffWorkflow.specs.StartTask.StartTask",
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 1,
+            "inputs": [],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "Start",
+            "outputs": [
+                "ansible_exec"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "ansible_exec": {
+            "class": "SpiffWorkflow.specs.MultiInstance.MultiInstance",
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 2,
+            "inputs": [
+                "Start"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "ansible_exec",
+            "outputs": [
+                "Ping",
+                "Shell"
+            ],
+            "post_assign": [],
+            "pre_assign": [],
+            "times": [
+                "value",
+                1
+            ]
+        },
+        "multi_choice_1": {
+            "choice": null,
+            "class": "SpiffWorkflow.specs.MultiChoice.MultiChoice",
+            "cond_task_specs": [
+                [
+                    [
+                        "SpiffWorkflow.operators.Equal",
+                        [
+                            [
+                                "Attrib",
+                                "Result"
+                            ],
+                            [
+                                "value",
+                                "yes"
+                            ]
+                        ]
+                    ],
+                    "End"
+                ],
+                [
+                    [
+                        "SpiffWorkflow.operators.Equal",
+                        [
+                            [
+                                "Attrib",
+                                "Result"
+                            ],
+                            [
+                                "value",
+                                "no"
+                            ]
+                        ]
+                    ],
+                    "End2"
+                ]
+            ],
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 8,
+            "inputs": [
+                "synch_1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "multi_choice_1",
+            "outputs": [
+                "End",
+                "End2"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "synch_1": {
+            "cancel_remaining": false,
+            "class": "SpiffWorkflow.specs.Join.Join",
+            "data": {},
+            "defines": {},
+            "description": "",
+            "id": 5,
+            "inputs": [
+                "Ping",
+                "Shell"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "synch_1",
+            "outputs": [
+                "multi_choice_1"
+            ],
+            "post_assign": [],
+            "pre_assign": [],
+            "split_task": null,
+            "threshold": {
+                "__bytes__": "gAROLg=="
+            }
+        }
+    }
+}

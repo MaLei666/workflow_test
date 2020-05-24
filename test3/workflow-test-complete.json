@@ -1,0 +1,100 @@
+{
+    "data": {},
+    "last_task": {
+        "__uuid__": "3bccac57746d41a2a82f0587f6d7499e"
+    },
+    "success": true,
+    "task_tree": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "data": {
+                                            "confirmation": {
+                                                "__bytes__": "gASVBwAAAAAAAACMA3llc5Qu"
+                                            },
+                                            "vartest": {
+                                                "__bytes__": "gASVEgAAAAAAAACMDmhlbGxvIHZhcnRlc3QhlC4="
+                                            }
+                                        },
+                                        "id": {
+                                            "__uuid__": "3bccac57746d41a2a82f0587f6d7499e"
+                                        },
+                                        "internal_data": {},
+                                        "last_state_change": 1589121900.1671464,
+                                        "parent": {
+                                            "__uuid__": "87fbf36ebda247c49e334e7debad8838"
+                                        },
+                                        "state": 32,
+                                        "task_spec": "nuclear_strike",
+                                        "triggered": false
+                                    }
+                                ],
+                                "data": {
+                                    "confirmation": {
+                                        "__bytes__": "gASVBwAAAAAAAACMA3llc5Qu"
+                                    }
+                                },
+                                "id": {
+                                    "__uuid__": "87fbf36ebda247c49e334e7debad8838"
+                                },
+                                "internal_data": {},
+                                "last_state_change": 1589121900.1670563,
+                                "parent": {
+                                    "__uuid__": "99a5de84e08a4583844645cd5c9af15e"
+                                },
+                                "state": 32,
+                                "task_spec": "president",
+                                "triggered": false
+                            }
+                        ],
+                        "data": {
+                            "confirmation": {
+                                "__bytes__": "gASVBwAAAAAAAACMA3llc5Qu"
+                            }
+                        },
+                        "id": {
+                            "__uuid__": "99a5de84e08a4583844645cd5c9af15e"
+                        },
+                        "internal_data": {},
+                        "last_state_change": 1589121900.1661472,
+                        "parent": {
+                            "__uuid__": "3dfd760339894c6893005d0b4df1514f"
+                        },
+                        "state": 32,
+                        "task_spec": "general",
+                        "triggered": false
+                    }
+                ],
+                "data": {},
+                "id": {
+                    "__uuid__": "3dfd760339894c6893005d0b4df1514f"
+                },
+                "internal_data": {},
+                "last_state_change": 1589121900.1660352,
+                "parent": {
+                    "__uuid__": "3035a27ca72b42edb32d74797bbb87c2"
+                },
+                "state": 32,
+                "task_spec": "Start",
+                "triggered": false
+            }
+        ],
+        "data": {},
+        "id": {
+            "__uuid__": "3035a27ca72b42edb32d74797bbb87c2"
+        },
+        "internal_data": {},
+        "last_state_change": 1589121900.1657863,
+        "parent": null,
+        "state": 32,
+        "task_spec": "Root",
+        "triggered": false
+    },
+    "wf_spec": "{\"description\": \"\", \"file\": null, \"name\": \"\", \"task_specs\": {\"Root\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": 6, \"inputs\": [], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Root\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}, \"Start\": {\"class\": \"SpiffWorkflow.specs.StartTask.StartTask\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Start\", \"outputs\": [\"general\"], \"post_assign\": [], \"pre_assign\": []}, \"general\": {\"choice\": null, \"class\": \"SpiffWorkflow.specs.ExclusiveChoice.ExclusiveChoice\", \"cond_task_specs\": [[[\"SpiffWorkflow.operators.Equal\", [[\"Attrib\", \"confirmation\"], [\"value\", \"yes\"]]], \"president\"]], \"data\": {}, \"default_task_spec\": \"workflow_aborted\", \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"Start\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": true, \"name\": \"general\", \"outputs\": [\"workflow_aborted\", \"president\"], \"post_assign\": [], \"pre_assign\": []}, \"nuclear_strike\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"president\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"nuclear_strike\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}, \"president\": {\"choice\": null, \"class\": \"SpiffWorkflow.specs.ExclusiveChoice.ExclusiveChoice\", \"cond_task_specs\": [[[\"SpiffWorkflow.operators.Equal\", [[\"Attrib\", \"confirmation\"], [\"value\", \"yes\"]]], \"nuclear_strike\"]], \"data\": {}, \"default_task_spec\": \"workflow_aborted\", \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"general\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": true, \"name\": \"president\", \"outputs\": [\"workflow_aborted\", \"nuclear_strike\"], \"post_assign\": [], \"pre_assign\": []}, \"workflow_aborted\": {\"cancel_successfully\": false, \"class\": \"SpiffWorkflow.specs.Cancel.Cancel\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"general\", \"president\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"workflow_aborted\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}}}"
+}

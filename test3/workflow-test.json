@@ -1,0 +1,106 @@
+{
+    "data": {},
+    "last_task": null,
+    "success": true,
+    "task_tree": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "data": {},
+                                        "id": {
+                                            "__uuid__": "7e1b454b19274c0582df227426727171"
+                                        },
+                                        "internal_data": {},
+                                        "last_state_change": 1589122425.2879395,
+                                        "parent": {
+                                            "__uuid__": "81f5c025ba2341a8b1f8784884b69927"
+                                        },
+                                        "state": 2,
+                                        "task_spec": "workflow_aborted",
+                                        "triggered": false
+                                    },
+                                    {
+                                        "children": [],
+                                        "data": {},
+                                        "id": {
+                                            "__uuid__": "14b760efda5f4d36a8f6a7a43f39712e"
+                                        },
+                                        "internal_data": {},
+                                        "last_state_change": 1589121924.130325,
+                                        "parent": {
+                                            "__uuid__": "81f5c025ba2341a8b1f8784884b69927"
+                                        },
+                                        "state": 1,
+                                        "task_spec": "nuclear_strike",
+                                        "triggered": false
+                                    }
+                                ],
+                                "data": {
+                                    "confirmation": {
+                                        "__bytes__": "gASVBwAAAAAAAACMA3llc5Qu"
+                                    }
+                                },
+                                "id": {
+                                    "__uuid__": "81f5c025ba2341a8b1f8784884b69927"
+                                },
+                                "internal_data": {},
+                                "last_state_change": 1589122425.2883255,
+                                "parent": {
+                                    "__uuid__": "8a57498c4138475080ea668c649165ca"
+                                },
+                                "state": 16,
+                                "task_spec": "president",
+                                "triggered": false
+                            }
+                        ],
+                        "data": {
+                            "confirmation": {
+                                "__bytes__": "gASVBwAAAAAAAACMA3llc5Qu"
+                            }
+                        },
+                        "id": {
+                            "__uuid__": "8a57498c4138475080ea668c649165ca"
+                        },
+                        "internal_data": {},
+                        "last_state_change": 1589122425.2877245,
+                        "parent": {
+                            "__uuid__": "841230f12fa74f2bbc81a3fd1585b856"
+                        },
+                        "state": 32,
+                        "task_spec": "general",
+                        "triggered": false
+                    }
+                ],
+                "data": {},
+                "id": {
+                    "__uuid__": "841230f12fa74f2bbc81a3fd1585b856"
+                },
+                "internal_data": {},
+                "last_state_change": 1589121927.5568757,
+                "parent": {
+                    "__uuid__": "8bc93784f6a14950ad402a765bdf0f4a"
+                },
+                "state": 32,
+                "task_spec": "Start",
+                "triggered": false
+            }
+        ],
+        "data": {},
+        "id": {
+            "__uuid__": "8bc93784f6a14950ad402a765bdf0f4a"
+        },
+        "internal_data": {},
+        "last_state_change": 1589121924.1286783,
+        "parent": null,
+        "state": 32,
+        "task_spec": "Root",
+        "triggered": false
+    },
+    "wf_spec": "{\"description\": \"\", \"file\": null, \"name\": \"\", \"task_specs\": {\"Root\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": 6, \"inputs\": [], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Root\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}, \"Start\": {\"class\": \"SpiffWorkflow.specs.StartTask.StartTask\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Start\", \"outputs\": [\"general\"], \"post_assign\": [], \"pre_assign\": []}, \"general\": {\"choice\": null, \"class\": \"SpiffWorkflow.specs.ExclusiveChoice.ExclusiveChoice\", \"cond_task_specs\": [[[\"SpiffWorkflow.operators.Equal\", [[\"Attrib\", \"confirmation\"], [\"value\", \"yes\"]]], \"president\"]], \"data\": {}, \"default_task_spec\": \"workflow_aborted\", \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"Start\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": true, \"name\": \"general\", \"outputs\": [\"workflow_aborted\", \"president\"], \"post_assign\": [], \"pre_assign\": []}, \"nuclear_strike\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"president\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"nuclear_strike\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}, \"president\": {\"choice\": null, \"class\": \"SpiffWorkflow.specs.ExclusiveChoice.ExclusiveChoice\", \"cond_task_specs\": [[[\"SpiffWorkflow.operators.Equal\", [[\"Attrib\", \"confirmation\"], [\"value\", \"yes\"]]], \"nuclear_strike\"]], \"data\": {}, \"default_task_spec\": \"workflow_aborted\", \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"general\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": true, \"name\": \"president\", \"outputs\": [\"workflow_aborted\", \"nuclear_strike\"], \"post_assign\": [], \"pre_assign\": []}, \"workflow_aborted\": {\"cancel_successfully\": false, \"class\": \"SpiffWorkflow.specs.Cancel.Cancel\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": null, \"inputs\": [\"general\", \"president\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"workflow_aborted\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}}}"
+}

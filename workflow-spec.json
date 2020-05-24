@@ -1,0 +1,489 @@
+{
+    "description": "",
+    "file": null,
+    "name": "test21",
+    "task_specs": {
+        "End": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "9v5pyuc5cd",
+            "id": 23,
+            "inputs": [
+                "task17"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "End",
+            "outputs": [],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "Multi1": {
+            "class": "SpiffWorkflow.specs.MultiInstance.MultiInstance",
+            "data": {},
+            "defines": {},
+            "description": "yjv46697dn",
+            "id": 3,
+            "inputs": [
+                "task1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "Multi1",
+            "outputs": [
+                "task2",
+                "task3",
+                "task4"
+            ],
+            "post_assign": [],
+            "pre_assign": [],
+            "times": [
+                "value",
+                1
+            ]
+        },
+        "Multi2": {
+            "class": "SpiffWorkflow.specs.MultiInstance.MultiInstance",
+            "data": {},
+            "defines": {},
+            "description": "kjdnajsdi",
+            "id": 11,
+            "inputs": [
+                "join1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "Multi2",
+            "outputs": [
+                "task8",
+                "task9",
+                "task10"
+            ],
+            "post_assign": [],
+            "pre_assign": [],
+            "times": [
+                "value",
+                1
+            ]
+        },
+        "Start": {
+            "class": "SpiffWorkflow.specs.StartTask.StartTask",
+            "data": {},
+            "defines": {},
+            "description": "7it76sdnhj",
+            "id": 1,
+            "inputs": [],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "Start",
+            "outputs": [
+                "task1"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "join1": {
+            "cancel_remaining": false,
+            "class": "SpiffWorkflow.specs.Join.Join",
+            "data": {},
+            "defines": {},
+            "description": "li3zm975v",
+            "id": 10,
+            "inputs": [
+                "task5",
+                "task6",
+                "task7"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "join1",
+            "outputs": [
+                "Multi2"
+            ],
+            "post_assign": [],
+            "pre_assign": [],
+            "split_task": null,
+            "threshold": {
+                "__bytes__": "gASVAgAAAAAAAABOLg=="
+            }
+        },
+        "join2": {
+            "cancel_remaining": false,
+            "class": "SpiffWorkflow.specs.Join.Join",
+            "data": {},
+            "defines": {},
+            "description": "iz5oxhecid",
+            "id": 21,
+            "inputs": [
+                "task14",
+                "task15",
+                "task16"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "join2",
+            "outputs": [
+                "task17"
+            ],
+            "post_assign": [],
+            "pre_assign": [],
+            "split_task": null,
+            "threshold": {
+                "__bytes__": "gASVAgAAAAAAAABOLg=="
+            }
+        },
+        "task1": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "rttcluxpoo",
+            "id": 2,
+            "inputs": [
+                "Start"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task1",
+            "outputs": [
+                "Multi1"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task10": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "x0hcbquqn",
+            "id": 14,
+            "inputs": [
+                "Multi2"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task10",
+            "outputs": [
+                "task13"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task11": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "s6zpp8s02",
+            "id": 15,
+            "inputs": [
+                "task8"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task11",
+            "outputs": [
+                "task14"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task12": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "me2w55187s",
+            "id": 16,
+            "inputs": [
+                "task9"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task12",
+            "outputs": [
+                "task15"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task13": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "is77b5guzm",
+            "id": 17,
+            "inputs": [
+                "task10"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task13",
+            "outputs": [
+                "task16"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task14": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "qx502s4dxk",
+            "id": 18,
+            "inputs": [
+                "task11"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task14",
+            "outputs": [
+                "join2"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task15": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "fhesdan0m8",
+            "id": 19,
+            "inputs": [
+                "task12"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task15",
+            "outputs": [
+                "join2"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task16": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "zu1ztqw25",
+            "id": 20,
+            "inputs": [
+                "task13"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task16",
+            "outputs": [
+                "join2"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task17": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "ynk6wpdc9",
+            "id": 22,
+            "inputs": [
+                "join2"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task17",
+            "outputs": [
+                "End"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task2": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "2ltti7uu29",
+            "id": 4,
+            "inputs": [
+                "Multi1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task2",
+            "outputs": [
+                "task5"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task3": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "3wqxkpn4zr",
+            "id": 5,
+            "inputs": [
+                "Multi1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task3",
+            "outputs": [
+                "task6"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task4": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "066ey37tfj",
+            "id": 6,
+            "inputs": [
+                "Multi1"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task4",
+            "outputs": [
+                "task7"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task5": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "ugz2gor1g",
+            "id": 7,
+            "inputs": [
+                "task2"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task5",
+            "outputs": [
+                "join1"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task6": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "4fdltcqn2c",
+            "id": 8,
+            "inputs": [
+                "task3"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task6",
+            "outputs": [
+                "join1"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task7": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "0szkpvcjth",
+            "id": 9,
+            "inputs": [
+                "task4"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task7",
+            "outputs": [
+                "join1"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task8": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "6pkyqtwm4",
+            "id": 12,
+            "inputs": [
+                "Multi2"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task8",
+            "outputs": [
+                "task11"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        },
+        "task9": {
+            "class": "SpiffWorkflow.specs.Simple.Simple",
+            "data": {},
+            "defines": {},
+            "description": "wqsfm4d7p",
+            "id": 13,
+            "inputs": [
+                "Multi2"
+            ],
+            "internal": false,
+            "locks": [],
+            "lookahead": 2,
+            "manual": false,
+            "name": "task9",
+            "outputs": [
+                "task12"
+            ],
+            "post_assign": [],
+            "pre_assign": []
+        }
+    }
+}

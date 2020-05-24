@@ -1,0 +1,10 @@
+---
+- hosts: all
+  gather_facts: False
+#  remote_user: root
+  tasks:
+    - name: test ping
+      ping:
+#    - name: shell commond
+#      shell: echo "hello world"
+#      register: result

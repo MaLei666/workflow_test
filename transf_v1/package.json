@@ -1,0 +1,424 @@
+{
+    "name": "流程A",
+    "nodeList": [
+        {
+            "id": "11",
+            "name": "开始",
+            "type": "StartTask",
+            "left": "17px",
+            "top": "228px",
+            "ico": "el-icon-video-play",
+            "show": "true"
+        },
+        {
+            "id": "12",
+            "name": "multi",
+            "type": "MultiInstance",
+            "left": "138px",
+            "top": "235px",
+            "ico": "el-icon-time",
+            "show": "true"
+        },
+        {
+            "id": "13",
+            "name": "SQL",
+            "type": "task",
+            "left": "276px",
+            "top": "160px",
+            "ico": "el-icon-time",
+            "show": "true"
+        },
+        {
+            "id": "14",
+            "name": "shell",
+            "type": "task",
+            "left": "276px",
+            "top": "233px",
+            "ico": "el-icon-time",
+            "show": "true"
+        },
+        {
+            "id": "15",
+            "name": "SQL3",
+            "type": "task",
+            "left": "279px",
+            "top": "314px",
+            "ico": "el-icon-time",
+            "show": "true"
+        },
+        {
+            "id": "16",
+            "name": "join",
+            "type": "join",
+            "left": "492px",
+            "top": "230px",
+            "ico": "el-icon-time",
+            "show": "true"
+        },
+        {
+            "id": "17",
+            "name": "结束",
+            "type": "end",
+            "left": "684px",
+            "top": "223px",
+            "ico": "el-icon-time",
+            "show": "true"
+        }
+    ],
+    "lineList": [
+        {
+            "from": "12",
+            "to": "13"
+        },
+        {
+            "from": "11",
+            "to": "12"
+        },
+        {
+            "from": "12",
+            "to": "14"
+        },
+        {
+            "from": "12",
+            "to": "15"
+        },
+        {
+            "from": "13",
+            "to": "16"
+        },
+        {
+            "from": "14",
+            "to": "16"
+        },
+        {
+            "from": "15",
+            "to": "16"
+        },
+        {
+            "from": "16",
+            "to": "17"
+        }
+    ]
+}
+
+
+{
+    "name": "",
+    "nodeList": [
+        {
+            "id": "7it76sdnhj",
+            "name": "开始",
+            "type": "StartTask",
+            "left": "15px",
+            "top": "185px",
+            "ico": "el-icon-video-play",
+            "show": true
+        },
+        {
+            "id": "rttcluxpoo",
+            "name": "task1",
+            "type": "task",
+            "left": "101px",
+            "top": "197px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "yjv46697dn",
+            "name": "Multi1",
+            "type": "MultiInstance",
+            "left": "284px",
+            "top": "196px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "2ltti7uu29",
+            "name": "task2",
+            "type": "task",
+            "left": "369px",
+            "top": "128px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "3wqxkpn4zr",
+            "name": "task3",
+            "type": "task",
+            "left": "368px",
+            "top": "179px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "066ey37tfj",
+            "name": "task4",
+            "type": "task",
+            "left": "358px",
+            "top": "238px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "ugz2gor1g",
+            "name": "task5",
+            "type": "task",
+            "left": "522px",
+            "top": "120px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "4fdltcqn2c",
+            "name": "task6",
+            "type": "task",
+            "left": "537px",
+            "top": "171px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "0szkpvcjth",
+            "name": "task7",
+            "type": "task",
+            "left": "531px",
+            "top": "241px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "li3zm975v",
+            "name": "join1",
+            "type": "join",
+            "left": "741px",
+            "top": "168px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "kjdnajsdi",
+            "name": "Multi2",
+            "type": "MultiInstance",
+            "left": "753px",
+            "top": "168px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "6pkyqtwm4",
+            "name": "task8",
+            "type": "task",
+            "left": "791.429px",
+            "top": "105.286px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "wqsfm4d7p",
+            "name": "task9",
+            "type": "task",
+            "left": "797.714px",
+            "top": "181.429px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "x0hcbquqn",
+            "name": "task10",
+            "type": "task",
+            "left": "796.143px",
+            "top": "265.857px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "s6zpp8s02",
+            "name": "task11",
+            "type": "task",
+            "left": "955.333px",
+            "top": "98.6667px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "me2w55187s",
+            "name": "task12",
+            "type": "task",
+            "left": "955px",
+            "top": "183.333px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "is77b5guzm",
+            "name": "task13",
+            "type": "task",
+            "left": "962.333px",
+            "top": "261.667px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "qx502s4dxk",
+            "name": "task14",
+            "type": "task",
+            "left": "1125.67px",
+            "top": "99.6667px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "fhesdan0m8",
+            "name": "task15",
+            "type": "task",
+            "left": "1115.33px",
+            "top": "185.333px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "zu1ztqw25",
+            "name": "task16",
+            "type": "task",
+            "left": "1137.33px",
+            "top": "264px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "iz5oxhecid",
+            "name": "join2",
+            "type": "join",
+            "left": "1313px",
+            "top": "182.333px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "ynk6wpdc9",
+            "name": "task17",
+            "type": "task",
+            "left": "1385.33px",
+            "top": "184.667px",
+            "ico": "el-icon-time",
+            "show": true
+        },
+        {
+            "id": "9v5pyuc5cd",
+            "name": "End",
+            "type": "end",
+            "left": "1543.33px",
+            "top": "179.333px",
+            "ico": "el-icon-time",
+            "show": true
+        }
+    ],
+    "lineList": [
+        {
+            "from": "7it76sdnhj",
+            "to": "rttcluxpoo"
+        },
+        {
+            "from": "rttcluxpoo",
+            "to": "yjv46697dn",
+            "lineText": "提示"
+        },
+        {
+            "from": "yjv46697dn",
+            "to": "2ltti7uu29"
+        },
+        {
+            "from": "yjv46697dn",
+            "to": "3wqxkpn4zr"
+        },
+        {
+            "from": "yjv46697dn",
+            "to": "066ey37tfj"
+        },
+        {
+            "from": "2ltti7uu29",
+            "to": "ugz2gor1g"
+        },
+        {
+            "from": "3wqxkpn4zr",
+            "to": "4fdltcqn2c"
+        },
+        {
+            "from": "066ey37tfj",
+            "to": "0szkpvcjth"
+        },
+        {
+            "from": "ugz2gor1g",
+            "to": "li3zm975v"
+        },
+        {
+            "from": "4fdltcqn2c",
+            "to": "li3zm975v"
+        },
+        {
+            "from": "0szkpvcjth",
+            "to": "li3zm975v",
+            "lineText": "提示语"
+        },
+        {
+            "from": "li3zm975v",
+            "to": "kjdnajsdi"
+        },
+        {
+            "from": "kjdnajsdi",
+            "to": "6pkyqtwm4"
+        },
+        {
+            "from": "kjdnajsdi",
+            "to": "wqsfm4d7p"
+        },
+        {
+            "from": "kjdnajsdi",
+            "to": "x0hcbquqn"
+        },
+        {
+            "from": "6pkyqtwm4",
+            "to": "s6zpp8s02"
+        },
+        {
+            "from": "wqsfm4d7p",
+            "to": "me2w55187s"
+        },
+        {
+            "from": "x0hcbquqn",
+            "to": "is77b5guzm"
+        },
+        {
+            "from": "s6zpp8s02",
+            "to": "qx502s4dxk"
+        },
+        {
+            "from": "me2w55187s",
+            "to": "fhesdan0m8"
+        },
+        {
+            "from": "is77b5guzm",
+            "to": "zu1ztqw25"
+        },
+        {
+            "from": "qx502s4dxk",
+            "to": "iz5oxhecid"
+        },
+        {
+            "from": "fhesdan0m8",
+            "to": "iz5oxhecid"
+        },
+        {
+            "from": "zu1ztqw25",
+            "to": "iz5oxhecid"
+        },
+        {
+            "from": "iz5oxhecid",
+            "to": "ynk6wpdc9"
+        },
+        {
+            "from": "ynk6wpdc9",
+            "to": "9v5pyuc5cd"
+        }
+    ]
+}

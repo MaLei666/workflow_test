@@ -1,0 +1,1130 @@
+{
+    "data": {},
+    "last_task": null,
+    "success": true,
+    "task_tree": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "f469d2f642fd4597a6abad1ad73bf81a"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2398224,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "4a50f2ef7abf4e0ca7639a072aae3d61"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "4a50f2ef7abf4e0ca7639a072aae3d61"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.239771,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "a558a02720fe431d9041de6e42ca727f"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "a558a02720fe431d9041de6e42ca727f"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.2397113,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "1a0a0cb9dd874588936d7a98569095cd"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "1a0a0cb9dd874588936d7a98569095cd"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.23965,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "04bad63909a14452925ad34fb4407aee"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task14",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "04bad63909a14452925ad34fb4407aee"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.2395856,
+                                                                                "parent": {
+                                                                                    "__uuid__": "d96cca79b441410f9d3dd35cb3d32ceb"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task11",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "d96cca79b441410f9d3dd35cb3d32ceb"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.2394714,
+                                                                        "parent": {
+                                                                            "__uuid__": "c6d544eb8a8645328055efdb8dca246c"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task8",
+                                                                        "triggered": false
+                                                                    },
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "fcc9669bb6154873bf9315e7af91bd1b"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2400393,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "86b1355b106d4cdf8c643992dcb1b8c6"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "86b1355b106d4cdf8c643992dcb1b8c6"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.2400022,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "3bcd11596c0e4af7b862eea8e30e497c"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "3bcd11596c0e4af7b862eea8e30e497c"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.2399647,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "cea743c0765c447b928de48460d2a49f"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "cea743c0765c447b928de48460d2a49f"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.2399278,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "e4fbe990adfe4d42a1793b5c9f4ade49"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task15",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "e4fbe990adfe4d42a1793b5c9f4ade49"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.2398906,
+                                                                                "parent": {
+                                                                                    "__uuid__": "c7b6c6b7e8a04ba79acd566bd38a8171"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task12",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "c7b6c6b7e8a04ba79acd566bd38a8171"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.2394772,
+                                                                        "parent": {
+                                                                            "__uuid__": "c6d544eb8a8645328055efdb8dca246c"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task9",
+                                                                        "triggered": false
+                                                                    },
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "66759fe5f534424bbbb63e78fe40117a"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2403548,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "f6f3f03102aa41158b2c99e72145899d"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "f6f3f03102aa41158b2c99e72145899d"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.2402227,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "7e40a4ea1be644fe8c58dae31b46d0f6"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "7e40a4ea1be644fe8c58dae31b46d0f6"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.2401855,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "c750609a1174486089bb9d643fb83897"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "c750609a1174486089bb9d643fb83897"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.240148,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "4b4c2a66db5847d883d64860c41d37e0"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task16",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "4b4c2a66db5847d883d64860c41d37e0"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.24011,
+                                                                                "parent": {
+                                                                                    "__uuid__": "70187773a16e4646832b7a97b7af5e6f"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task13",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "70187773a16e4646832b7a97b7af5e6f"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.239482,
+                                                                        "parent": {
+                                                                            "__uuid__": "c6d544eb8a8645328055efdb8dca246c"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task10",
+                                                                        "triggered": false
+                                                                    }
+                                                                ],
+                                                                "data": {},
+                                                                "id": {
+                                                                    "__uuid__": "c6d544eb8a8645328055efdb8dca246c"
+                                                                },
+                                                                "internal_data": {
+                                                                    "splits": 1
+                                                                },
+                                                                "last_state_change": 1589178584.2393982,
+                                                                "parent": {
+                                                                    "__uuid__": "1ed0d34a778c42c6854e1c3b49971fca"
+                                                                },
+                                                                "state": 4,
+                                                                "task_spec": "Multi2",
+                                                                "triggered": false
+                                                            }
+                                                        ],
+                                                        "data": {},
+                                                        "id": {
+                                                            "__uuid__": "1ed0d34a778c42c6854e1c3b49971fca"
+                                                        },
+                                                        "internal_data": {},
+                                                        "last_state_change": 1589178584.239317,
+                                                        "parent": {
+                                                            "__uuid__": "f7d7b51fcf6b495fb32126ead48cc9ac"
+                                                        },
+                                                        "state": 4,
+                                                        "task_spec": "join1",
+                                                        "triggered": false
+                                                    }
+                                                ],
+                                                "data": {},
+                                                "id": {
+                                                    "__uuid__": "f7d7b51fcf6b495fb32126ead48cc9ac"
+                                                },
+                                                "internal_data": {},
+                                                "last_state_change": 1589178584.2390826,
+                                                "parent": {
+                                                    "__uuid__": "3085463cd2034031928961c7cb1d22e9"
+                                                },
+                                                "state": 4,
+                                                "task_spec": "task5",
+                                                "triggered": false
+                                            }
+                                        ],
+                                        "data": {},
+                                        "id": {
+                                            "__uuid__": "3085463cd2034031928961c7cb1d22e9"
+                                        },
+                                        "internal_data": {},
+                                        "last_state_change": 1589178584.238997,
+                                        "parent": {
+                                            "__uuid__": "b89b7f25f17048679e657316438a425b"
+                                        },
+                                        "state": 4,
+                                        "task_spec": "task2",
+                                        "triggered": false
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "b44cc6726767496c9e19d8de8e40641d"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2412186,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "1c5db15423b34869a1f38207a04aa542"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "1c5db15423b34869a1f38207a04aa542"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.241155,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "0a99e07f373d4df6b08a66e4b5d43716"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "0a99e07f373d4df6b08a66e4b5d43716"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.241096,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "726de3f7ebe946cea6521856ea530278"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "726de3f7ebe946cea6521856ea530278"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.2410345,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "afb58dc30bd94e57bd8ef6245ae1584c"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task14",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "afb58dc30bd94e57bd8ef6245ae1584c"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.2409692,
+                                                                                "parent": {
+                                                                                    "__uuid__": "cf5c340d011d42a1919e09b87e68e1dd"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task11",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "cf5c340d011d42a1919e09b87e68e1dd"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.2408655,
+                                                                        "parent": {
+                                                                            "__uuid__": "56ae0d46a4724086a65cbcbb57d1eef9"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task8",
+                                                                        "triggered": false
+                                                                    },
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "f2bcb60994f94936b3ef95d427ab97c0"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2417183,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "3897512751264b1f929bcee745ebbfc9"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "3897512751264b1f929bcee745ebbfc9"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.2416537,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "6909d70b24a24f7bbfbad173f5962ad7"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "6909d70b24a24f7bbfbad173f5962ad7"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.241589,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "8b81450dd73e41a2a6d2851d81cb3837"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "8b81450dd73e41a2a6d2851d81cb3837"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.2414718,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "5780a855ec6a41efa87b1e04e8c9e6ec"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task15",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "5780a855ec6a41efa87b1e04e8c9e6ec"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.241332,
+                                                                                "parent": {
+                                                                                    "__uuid__": "a97340de21fe43b3b7660c0b4273ad13"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task12",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "a97340de21fe43b3b7660c0b4273ad13"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.2408779,
+                                                                        "parent": {
+                                                                            "__uuid__": "56ae0d46a4724086a65cbcbb57d1eef9"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task9",
+                                                                        "triggered": false
+                                                                    },
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "afc89ecde646458fa2b886e4b276da49"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2421062,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "60eda65f0fd646d5b04e32c967d72318"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "60eda65f0fd646d5b04e32c967d72318"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.2419984,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "610db9980e5b4153935c23b97c19a5ef"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "610db9980e5b4153935c23b97c19a5ef"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.241943,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "2f7d5ad3790a4690bbfbbdade3ccf06b"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "2f7d5ad3790a4690bbfbbdade3ccf06b"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.2418826,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "20b088469c1e477a9c8df7d6232248e2"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task16",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "20b088469c1e477a9c8df7d6232248e2"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.2418249,
+                                                                                "parent": {
+                                                                                    "__uuid__": "bdfb04865ae3421387c587b36532c919"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task13",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "bdfb04865ae3421387c587b36532c919"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.240886,
+                                                                        "parent": {
+                                                                            "__uuid__": "56ae0d46a4724086a65cbcbb57d1eef9"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task10",
+                                                                        "triggered": false
+                                                                    }
+                                                                ],
+                                                                "data": {},
+                                                                "id": {
+                                                                    "__uuid__": "56ae0d46a4724086a65cbcbb57d1eef9"
+                                                                },
+                                                                "internal_data": {
+                                                                    "splits": 1
+                                                                },
+                                                                "last_state_change": 1589178584.2406151,
+                                                                "parent": {
+                                                                    "__uuid__": "98fd34262323435aa8709a852c7a3c01"
+                                                                },
+                                                                "state": 4,
+                                                                "task_spec": "Multi2",
+                                                                "triggered": false
+                                                            }
+                                                        ],
+                                                        "data": {},
+                                                        "id": {
+                                                            "__uuid__": "98fd34262323435aa8709a852c7a3c01"
+                                                        },
+                                                        "internal_data": {},
+                                                        "last_state_change": 1589178584.2405334,
+                                                        "parent": {
+                                                            "__uuid__": "ec6672dbb9c445288bed693e32780f0a"
+                                                        },
+                                                        "state": 4,
+                                                        "task_spec": "join1",
+                                                        "triggered": false
+                                                    }
+                                                ],
+                                                "data": {},
+                                                "id": {
+                                                    "__uuid__": "ec6672dbb9c445288bed693e32780f0a"
+                                                },
+                                                "internal_data": {},
+                                                "last_state_change": 1589178584.2404718,
+                                                "parent": {
+                                                    "__uuid__": "79e2273c96c148cb8eb51205df0d6791"
+                                                },
+                                                "state": 4,
+                                                "task_spec": "task6",
+                                                "triggered": false
+                                            }
+                                        ],
+                                        "data": {},
+                                        "id": {
+                                            "__uuid__": "79e2273c96c148cb8eb51205df0d6791"
+                                        },
+                                        "internal_data": {},
+                                        "last_state_change": 1589178584.239003,
+                                        "parent": {
+                                            "__uuid__": "b89b7f25f17048679e657316438a425b"
+                                        },
+                                        "state": 4,
+                                        "task_spec": "task3",
+                                        "triggered": false
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "a92d837e51d24b3a8f20d8026f0d4b9b"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2427907,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "2c0991f8a9054976be4d8671849b0ea3"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "2c0991f8a9054976be4d8671849b0ea3"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.2427342,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "8f86b97ae0d94258b8e07e7d550ed6ae"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "8f86b97ae0d94258b8e07e7d550ed6ae"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.2426767,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "6a2a5d119f8e4a56b5661bbfa1c45392"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "6a2a5d119f8e4a56b5661bbfa1c45392"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.2426202,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "87a36650dc914406baa939d3ade7b45e"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task14",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "87a36650dc914406baa939d3ade7b45e"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.242563,
+                                                                                "parent": {
+                                                                                    "__uuid__": "2ba04deba14d4589a057f31018054629"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task11",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "2ba04deba14d4589a057f31018054629"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.2424843,
+                                                                        "parent": {
+                                                                            "__uuid__": "3ef5345376e646648ba48e9dccbaea64"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task8",
+                                                                        "triggered": false
+                                                                    },
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "a400d1aaa3e14a80a46eac7093abdefc"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2431345,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "1dc855320f7e4f5ab44fcb6cc3421e5b"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "1dc855320f7e4f5ab44fcb6cc3421e5b"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.2430966,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "87862ec890744fcbac8add2cb5b7ae7e"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "87862ec890744fcbac8add2cb5b7ae7e"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.2430587,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "caa69fdf4ef5473b9ee435c72d26799c"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "caa69fdf4ef5473b9ee435c72d26799c"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.2430182,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "0db853347e4c48e0ae8955ca81bb2d89"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task15",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "0db853347e4c48e0ae8955ca81bb2d89"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.2429404,
+                                                                                "parent": {
+                                                                                    "__uuid__": "4eb828c8daaa49b7b2fe13f8a2dbf2f0"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task12",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "4eb828c8daaa49b7b2fe13f8a2dbf2f0"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.2424922,
+                                                                        "parent": {
+                                                                            "__uuid__": "3ef5345376e646648ba48e9dccbaea64"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task9",
+                                                                        "triggered": false
+                                                                    },
+                                                                    {
+                                                                        "children": [
+                                                                            {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "children": [],
+                                                                                                                "data": {},
+                                                                                                                "id": {
+                                                                                                                    "__uuid__": "b50a0ac0ea8e491384061f8287a17967"
+                                                                                                                },
+                                                                                                                "internal_data": {},
+                                                                                                                "last_state_change": 1589178584.2433622,
+                                                                                                                "parent": {
+                                                                                                                    "__uuid__": "b959c81542124822a9083f98cd167e86"
+                                                                                                                },
+                                                                                                                "state": 4,
+                                                                                                                "task_spec": "End",
+                                                                                                                "triggered": false
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "data": {},
+                                                                                                        "id": {
+                                                                                                            "__uuid__": "b959c81542124822a9083f98cd167e86"
+                                                                                                        },
+                                                                                                        "internal_data": {},
+                                                                                                        "last_state_change": 1589178584.2433202,
+                                                                                                        "parent": {
+                                                                                                            "__uuid__": "8a06ca1a64ec4085abeb692aa6e43ddc"
+                                                                                                        },
+                                                                                                        "state": 4,
+                                                                                                        "task_spec": "task17",
+                                                                                                        "triggered": false
+                                                                                                    }
+                                                                                                ],
+                                                                                                "data": {},
+                                                                                                "id": {
+                                                                                                    "__uuid__": "8a06ca1a64ec4085abeb692aa6e43ddc"
+                                                                                                },
+                                                                                                "internal_data": {},
+                                                                                                "last_state_change": 1589178584.2432823,
+                                                                                                "parent": {
+                                                                                                    "__uuid__": "a2b701730c914fe79854188c6254ceff"
+                                                                                                },
+                                                                                                "state": 4,
+                                                                                                "task_spec": "join2",
+                                                                                                "triggered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "data": {},
+                                                                                        "id": {
+                                                                                            "__uuid__": "a2b701730c914fe79854188c6254ceff"
+                                                                                        },
+                                                                                        "internal_data": {},
+                                                                                        "last_state_change": 1589178584.2432437,
+                                                                                        "parent": {
+                                                                                            "__uuid__": "3b0c8f39fb0846169d17f0862ad80d0b"
+                                                                                        },
+                                                                                        "state": 4,
+                                                                                        "task_spec": "task16",
+                                                                                        "triggered": false
+                                                                                    }
+                                                                                ],
+                                                                                "data": {},
+                                                                                "id": {
+                                                                                    "__uuid__": "3b0c8f39fb0846169d17f0862ad80d0b"
+                                                                                },
+                                                                                "internal_data": {},
+                                                                                "last_state_change": 1589178584.2432013,
+                                                                                "parent": {
+                                                                                    "__uuid__": "f23995f852ed46b0a82ef4377a54eb9b"
+                                                                                },
+                                                                                "state": 4,
+                                                                                "task_spec": "task13",
+                                                                                "triggered": false
+                                                                            }
+                                                                        ],
+                                                                        "data": {},
+                                                                        "id": {
+                                                                            "__uuid__": "f23995f852ed46b0a82ef4377a54eb9b"
+                                                                        },
+                                                                        "internal_data": {},
+                                                                        "last_state_change": 1589178584.2424996,
+                                                                        "parent": {
+                                                                            "__uuid__": "3ef5345376e646648ba48e9dccbaea64"
+                                                                        },
+                                                                        "state": 4,
+                                                                        "task_spec": "task10",
+                                                                        "triggered": false
+                                                                    }
+                                                                ],
+                                                                "data": {},
+                                                                "id": {
+                                                                    "__uuid__": "3ef5345376e646648ba48e9dccbaea64"
+                                                                },
+                                                                "internal_data": {
+                                                                    "splits": 1
+                                                                },
+                                                                "last_state_change": 1589178584.2424154,
+                                                                "parent": {
+                                                                    "__uuid__": "7f164e778ca44cd9ab4b5b95103e6b79"
+                                                                },
+                                                                "state": 4,
+                                                                "task_spec": "Multi2",
+                                                                "triggered": false
+                                                            }
+                                                        ],
+                                                        "data": {},
+                                                        "id": {
+                                                            "__uuid__": "7f164e778ca44cd9ab4b5b95103e6b79"
+                                                        },
+                                                        "internal_data": {},
+                                                        "last_state_change": 1589178584.2423544,
+                                                        "parent": {
+                                                            "__uuid__": "c125d60413e1486e820b51839bf871c6"
+                                                        },
+                                                        "state": 4,
+                                                        "task_spec": "join1",
+                                                        "triggered": false
+                                                    }
+                                                ],
+                                                "data": {},
+                                                "id": {
+                                                    "__uuid__": "c125d60413e1486e820b51839bf871c6"
+                                                },
+                                                "internal_data": {},
+                                                "last_state_change": 1589178584.2422884,
+                                                "parent": {
+                                                    "__uuid__": "d7fd16a1dd564c53863ab659d6572f34"
+                                                },
+                                                "state": 4,
+                                                "task_spec": "task7",
+                                                "triggered": false
+                                            }
+                                        ],
+                                        "data": {},
+                                        "id": {
+                                            "__uuid__": "d7fd16a1dd564c53863ab659d6572f34"
+                                        },
+                                        "internal_data": {},
+                                        "last_state_change": 1589178584.2390072,
+                                        "parent": {
+                                            "__uuid__": "b89b7f25f17048679e657316438a425b"
+                                        },
+                                        "state": 4,
+                                        "task_spec": "task4",
+                                        "triggered": false
+                                    }
+                                ],
+                                "data": {},
+                                "id": {
+                                    "__uuid__": "b89b7f25f17048679e657316438a425b"
+                                },
+                                "internal_data": {
+                                    "splits": 1
+                                },
+                                "last_state_change": 1589178584.238947,
+                                "parent": {
+                                    "__uuid__": "7c5184e281ce4dc0adafb04367c0b1c8"
+                                },
+                                "state": 4,
+                                "task_spec": "Multi1",
+                                "triggered": false
+                            }
+                        ],
+                        "data": {
+                            "Result": {
+                                "__bytes__": "gAROLg=="
+                            },
+                            "result": {
+                                "__bytes__": "gASVGAAAAAAAAACMFHdvcmtmbG93IHJ1biB3ZWxsISEhlC4="
+                            }
+                        },
+                        "id": {
+                            "__uuid__": "7c5184e281ce4dc0adafb04367c0b1c8"
+                        },
+                        "internal_data": {},
+                        "last_state_change": 1589178584.2497928,
+                        "parent": {
+                            "__uuid__": "7d683ce17d0c44f8800d90830b0fe27b"
+                        },
+                        "state": 16,
+                        "task_spec": "task1",
+                        "triggered": false
+                    }
+                ],
+                "data": {},
+                "id": {
+                    "__uuid__": "7d683ce17d0c44f8800d90830b0fe27b"
+                },
+                "internal_data": {},
+                "last_state_change": 1589178584.2458382,
+                "parent": {
+                    "__uuid__": "4b17d1230f014ed7ace8484b929f9f0a"
+                },
+                "state": 32,
+                "task_spec": "Start",
+                "triggered": false
+            }
+        ],
+        "data": {},
+        "id": {
+            "__uuid__": "4b17d1230f014ed7ace8484b929f9f0a"
+        },
+        "internal_data": {},
+        "last_state_change": 1589178584.2387106,
+        "parent": null,
+        "state": 32,
+        "task_spec": "Root",
+        "triggered": false
+    },
+    "wf_spec": "{\"description\": \"\", \"file\": null, \"name\": \"test1\", \"task_specs\": {\"End\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"9v5pyuc5cd\", \"id\": 23, \"inputs\": [\"task17\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"End\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}, \"Multi1\": {\"class\": \"SpiffWorkflow.specs.MultiInstance.MultiInstance\", \"data\": {}, \"defines\": {}, \"description\": \"yjv46697dn\", \"id\": 3, \"inputs\": [\"task1\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Multi1\", \"outputs\": [\"task2\", \"task3\", \"task4\"], \"post_assign\": [], \"pre_assign\": [], \"times\": [\"value\", 1]}, \"Multi2\": {\"class\": \"SpiffWorkflow.specs.MultiInstance.MultiInstance\", \"data\": {}, \"defines\": {}, \"description\": \"kjdnajsdi\", \"id\": 11, \"inputs\": [\"join1\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Multi2\", \"outputs\": [\"task8\", \"task9\", \"task10\"], \"post_assign\": [], \"pre_assign\": [], \"times\": [\"value\", 1]}, \"Root\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"\", \"id\": 24, \"inputs\": [], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Root\", \"outputs\": [], \"post_assign\": [], \"pre_assign\": []}, \"Start\": {\"class\": \"SpiffWorkflow.specs.StartTask.StartTask\", \"data\": {}, \"defines\": {}, \"description\": \"7it76sdnhj\", \"id\": 1, \"inputs\": [], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"Start\", \"outputs\": [\"task1\"], \"post_assign\": [], \"pre_assign\": []}, \"join1\": {\"cancel_remaining\": false, \"class\": \"SpiffWorkflow.specs.Join.Join\", \"data\": {}, \"defines\": {}, \"description\": \"li3zm975v\", \"id\": 10, \"inputs\": [\"task5\", \"task6\", \"task7\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"join1\", \"outputs\": [\"Multi2\"], \"post_assign\": [], \"pre_assign\": [], \"split_task\": null, \"threshold\": {\"__bytes__\": \"gAROLg==\"}}, \"join2\": {\"cancel_remaining\": false, \"class\": \"SpiffWorkflow.specs.Join.Join\", \"data\": {}, \"defines\": {}, \"description\": \"iz5oxhecid\", \"id\": 21, \"inputs\": [\"task14\", \"task15\", \"task16\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"join2\", \"outputs\": [\"task17\"], \"post_assign\": [], \"pre_assign\": [], \"split_task\": null, \"threshold\": {\"__bytes__\": \"gAROLg==\"}}, \"task1\": {\"args\": null, \"class\": \"workflowexecute.taskSpec\", \"data\": {}, \"defines\": {}, \"description\": \"rttcluxpoo\", \"file_path\": \"test.yml\", \"id\": 2, \"inputs\": [\"Start\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task1\", \"node_type\": \"playbook\", \"outputs\": [\"Multi1\"], \"parameters\": {\"host_list\": [\"localhost\"], \"password\": \"vagrant\", \"playbooks\": [\"test.yml\"], \"username\": \"vagrant\"}, \"post_assign\": [], \"pre_assign\": []}, \"task10\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"x0hcbquqn\", \"id\": 14, \"inputs\": [\"Multi2\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task10\", \"outputs\": [\"task13\"], \"post_assign\": [], \"pre_assign\": []}, \"task11\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"s6zpp8s02\", \"id\": 15, \"inputs\": [\"task8\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task11\", \"outputs\": [\"task14\"], \"post_assign\": [], \"pre_assign\": []}, \"task12\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"me2w55187s\", \"id\": 16, \"inputs\": [\"task9\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task12\", \"outputs\": [\"task15\"], \"post_assign\": [], \"pre_assign\": []}, \"task13\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"is77b5guzm\", \"id\": 17, \"inputs\": [\"task10\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task13\", \"outputs\": [\"task16\"], \"post_assign\": [], \"pre_assign\": []}, \"task14\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"qx502s4dxk\", \"id\": 18, \"inputs\": [\"task11\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task14\", \"outputs\": [\"join2\"], \"post_assign\": [], \"pre_assign\": []}, \"task15\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"fhesdan0m8\", \"id\": 19, \"inputs\": [\"task12\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task15\", \"outputs\": [\"join2\"], \"post_assign\": [], \"pre_assign\": []}, \"task16\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"zu1ztqw25\", \"id\": 20, \"inputs\": [\"task13\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task16\", \"outputs\": [\"join2\"], \"post_assign\": [], \"pre_assign\": []}, \"task17\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"ynk6wpdc9\", \"id\": 22, \"inputs\": [\"join2\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task17\", \"outputs\": [\"End\"], \"post_assign\": [], \"pre_assign\": []}, \"task2\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"2ltti7uu29\", \"id\": 4, \"inputs\": [\"Multi1\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task2\", \"outputs\": [\"task5\"], \"post_assign\": [], \"pre_assign\": []}, \"task3\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"3wqxkpn4zr\", \"id\": 5, \"inputs\": [\"Multi1\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task3\", \"outputs\": [\"task6\"], \"post_assign\": [], \"pre_assign\": []}, \"task4\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"066ey37tfj\", \"id\": 6, \"inputs\": [\"Multi1\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task4\", \"outputs\": [\"task7\"], \"post_assign\": [], \"pre_assign\": []}, \"task5\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"ugz2gor1g\", \"id\": 7, \"inputs\": [\"task2\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task5\", \"outputs\": [\"join1\"], \"post_assign\": [], \"pre_assign\": []}, \"task6\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"4fdltcqn2c\", \"id\": 8, \"inputs\": [\"task3\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task6\", \"outputs\": [\"join1\"], \"post_assign\": [], \"pre_assign\": []}, \"task7\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"0szkpvcjth\", \"id\": 9, \"inputs\": [\"task4\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task7\", \"outputs\": [\"join1\"], \"post_assign\": [], \"pre_assign\": []}, \"task8\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"6pkyqtwm4\", \"id\": 12, \"inputs\": [\"Multi2\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task8\", \"outputs\": [\"task11\"], \"post_assign\": [], \"pre_assign\": []}, \"task9\": {\"class\": \"SpiffWorkflow.specs.Simple.Simple\", \"data\": {}, \"defines\": {}, \"description\": \"wqsfm4d7p\", \"id\": 13, \"inputs\": [\"Multi2\"], \"internal\": false, \"locks\": [], \"lookahead\": 2, \"manual\": false, \"name\": \"task9\", \"outputs\": [\"task12\"], \"post_assign\": [], \"pre_assign\": []}}}"
+}
